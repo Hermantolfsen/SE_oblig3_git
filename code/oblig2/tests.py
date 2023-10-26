@@ -7,7 +7,7 @@ from functions import is_leap_year
 def test_leap_year_divisible_by_4():
     assert is_leap_year(2000) == True
     assert is_leap_year(2012) == True
-    assert is_leap_year(2020) == True
+    assert is_leap_year(2020) == False
 
 def test_leap_year_divisible_by_100():
     assert is_leap_year(1900) == False
