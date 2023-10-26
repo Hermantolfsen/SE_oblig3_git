@@ -5,6 +5,7 @@ Jeg opprettet et GitHub-repository, deretter brukte jeg GitHub Desktop for å sy
 
 
 ## Test Failed
+Her kjører jeg en commit som skal faila med vilje. Dette er nyttig slik at jeg sjekker at systemet faktisk fanger opp både feilede tester og tester som passerer.
 
 
 ## Test Passed
