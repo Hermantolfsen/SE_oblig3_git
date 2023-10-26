@@ -1,18 +1,21 @@
-# Oblig 3 - git og continuous integration
-# Fremgangsmåte
-Jeg opprettet et GitHub-repository, deretter brukte jeg GitHub Desktop for å synkornisere dette respoitorey med PyCharm slik at jeg kan arbeide med koden lokalt Videre la jeg til koden fra oblig 2 (funksjonen og testene) i repositoryet. Jeg brukte Pytest og Virtual Enviorment. Til slutt opprettet jeg run-test.yaml filen som kjører hver gang man commiter
-![yaml](https://github.com/Hermantolfsen/SE_oblig3_git/assets/144327715/9a9e2ce5-c9af-4f22-b389-325980108b48)
+# Oblig 3 - Git og Continuous Integration
 
+## Fremgangsmåte
+For denne oppgaven opprettet jeg et GitHub-repository. Deretter brukte jeg GitHub Desktop for å synkronisere dette repositoryet med PyCharm. Dette tillot meg å arbeide med koden lokalt. Jeg inkluderte koden fra Oblig 2, som inneholdt både funksjonen og testene. Jeg benyttet Pytest og Virtual Environment for testing. Til slutt konfigurerte jeg en "run-test.yaml"-fil som automatisk kjører testene hver gang det blir gjort en commit.
 
-## Test Failed
-Her kjører jeg en commit som skal faila med vilje. Dette er nyttig slik at jeg sjekker at systemet faktisk fanger opp både feilede tester og tester som passerer.
-![test fail](https://github.com/Hermantolfsen/SE_oblig3_git/assets/144327715/df4bc52f-77d4-4029-911a-1b865f704876)
+![YAML Config](https://github.com/Hermantolfsen/SE_oblig3_git/assets/144327715/9a9e2ce5-c9af-4f22-b389-325980108b48)
 
+## Testing - Feil
 
-## Test Passed
-Her så kjører jeg da en ny commit som skal passere.
-![test pass](https://github.com/Hermantolfsen/SE_oblig3_git/assets/144327715/11984d74-062b-431b-a159-12097e8d72d0)
+Som en del av testingen, utførte jeg encommit som skulle feile testen. Dette var viktig for å forsikre meg om at systemet faktisk oppdaget både feilende tester og tester som passa.
 
+![Test Fail](https://github.com/Hermantolfsen/SE_oblig3_git/assets/144327715/df4bc52f-77d4-4029-911a-1b865f704876)
 
+## Testing - Bestått
 
-# All commits
+Deretter utførte jeg en annen commit med hensikt om å få testene til å bestå.
+
+![Test Pass](https://github.com/Hermantolfsen/SE_oblig3_git/assets/144327715/11984d74-062b-431b-a159-12097e8d72d0)
+
+# Alle Commits
+
