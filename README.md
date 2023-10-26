@@ -1,1 +1,1 @@
-# SE_oblig3_git
+# Oblig 3 - git og continuous integration
