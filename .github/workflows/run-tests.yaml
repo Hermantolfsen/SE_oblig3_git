@@ -1,0 +1,35 @@
+name: run-tests
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    name: Run tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          pip install -r requirements.txt
+        working-directory: ./  # Assuming your requirements.txt is in the root of your repository
+
+      - name: Run tests
+        run: pytest -r w
+        working-directory: ./  # Specify the directory where your tests are located
+
