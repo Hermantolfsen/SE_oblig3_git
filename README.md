@@ -10,5 +10,9 @@ Her kjører jeg en commit som skal faila med vilje. Dette er nyttig slik at jeg 
 
 
 ## Test Passed
+Her så kjører jeg da en ny commit som skal passere.
+![test pass](https://github.com/Hermantolfsen/SE_oblig3_git/assets/144327715/11984d74-062b-431b-a159-12097e8d72d0)
+
+
 
 # All commits
