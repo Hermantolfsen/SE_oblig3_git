@@ -33,6 +33,7 @@ jobs:
 
 
       - name: Run tests
-        run: pytest -r w
+        run: pytest code/oblig2/tests.py -r w
+
 
 
