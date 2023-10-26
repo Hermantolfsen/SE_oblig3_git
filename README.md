@@ -18,4 +18,9 @@ Deretter utførte jeg en annen commit med hensikt om å få testene til å best�
 ![Test Pass](https://github.com/Hermantolfsen/SE_oblig3_git/assets/144327715/11984d74-062b-431b-a159-12097e8d72d0)
 
 # Alle Commits
+Gjennom arbeidet med denne oppgaven har jeg utført flere commits, hver med sin egen hensikt og mål. Mange av disse commitene var resultatet av eksperimentering og "trial and error". Jeg har aktivt testet endringer for å oppnå ønskede resultater.
+Hver commit representerer et forsøk om å løse eventuelle utfordringer som har oppstått underveis.
+
+![All commits](https://github.com/Hermantolfsen/SE_oblig3_git/assets/144327715/14216ad6-86b5-481b-8a9f-29463fce2a73)
+
 
