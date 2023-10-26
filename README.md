@@ -6,6 +6,7 @@ Jeg opprettet et GitHub-repository, deretter brukte jeg GitHub Desktop for å sy
 
 ## Test Failed
 Her kjører jeg en commit som skal faila med vilje. Dette er nyttig slik at jeg sjekker at systemet faktisk fanger opp både feilede tester og tester som passerer.
+![test fail](https://github.com/Hermantolfsen/SE_oblig3_git/assets/144327715/df4bc52f-77d4-4029-911a-1b865f704876)
 
 
 ## Test Passed
